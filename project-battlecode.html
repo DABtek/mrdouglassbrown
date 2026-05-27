@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests;">
+  <title>Battlecode Bot — Competition AI Strategy | Douglass A. Brown</title>
+  <meta name="description" content="An autonomous strategy agent built for MIT's Battlecode competition — resource management, unit deployment, and battlefield tactics in Java." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="dougbrown.html" class="brand">Douglass A. Brown</a>
+    <nav class="nav-links" aria-label="Primary Navigation">
+      <a href="selected-work.html">Selected Work</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero project-hero">
+    <div class="page-hero-overlay">
+      <div class="container page-hero-content">
+        <p class="eyebrow">Competition AI · Systems Design · Java · 2025</p>
+        <h1>Battlecode Bot</h1>
+        <p class="hero-text">An autonomous strategy agent built for MIT's annual programming competition — where the battlefield is a grid, the units are code, and every decision you make costs you something.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section">
+    <div class="container project-detail-grid">
+      <aside class="project-sidebar detail-block" aria-label="Project details">
+        <h2>Project Details</h2>
+        <ul class="meta-list">
+          <li><strong>Competition:</strong> MIT Battlecode</li>
+          <li><strong>Language:</strong> Java</li>
+          <li><strong>Role:</strong> Team member · Strategy design</li>
+          <li><strong>Focus:</strong> Strategy AI, resource management, unit micro-control</li>
+          <li><strong>Status:</strong> Competition entry complete</li>
+        </ul>
+      </aside>
+
+      <div class="project-body">
+
+        <div class="detail-block detail-block--alt">
+          <p class="detail-label">
+            MATCH RESULT — STRATEGY LOG
+          </p>
+          <p class="mt-sm detail-meta">
+            Units deployed. Resources allocated. Objective: outlast, outmaneuver, win.
+          </p>
+        </div>
+
+        <article class="detail-block">
+          <h2>Overview</h2>
+          <p>
+            Battlecode is MIT's annual programming competition where teams build
+            autonomous bots to fight for control of a simulated battlefield — no human
+            input once the match starts. That year's game had units called rats and cats.
+            The strategy space is enormous: when to build, when to attack, when to hold,
+            when to spend resources and when to hoard them.
+          </p>
+          <p class="mt-md">
+            My teammate handled pathfinding and cheese — an exploitative early-game
+            strategy designed to catch opponents off-guard. I owned strategy design:
+            specifically two modes I developed, Kingbuilder and Kamikaze.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Kingbuilder, Kamikaze, and What Actually Worked</h2>
+          <p>
+            <strong>Kingbuilder:</strong> I discovered you could spawn multiple kings.
+            My instinct was that more kings meant more power — so I designed a mode
+            built around building as many as possible. It was wrong. Multiple kings
+            tripled resource costs and starved the rest of the army. The theory was
+            sound on paper. The math killed it in practice. I learned more from
+            that failure than from most things that worked.
+          </p>
+          <p class="mt-md">
+            <strong>Kamikaze:</strong> This one worked. The baby rats would relentlessly
+            swarm the cats — no retreat, just pure aggression on target. Combined with
+            my teammate's cheese keeping opponents pinned high up on the map, the
+            kamikazes had room to work. At our peak they were dealing over 3,000 damage
+            to the cats in a single engagement.
+          </p>
+          <p class="mt-md">
+            I designed the code with tweakable knobs throughout — adjustable parameters
+            that let me dial in thresholds and find the sweet spots without rewriting
+            logic every iteration. Resource management was a constant tension across
+            both modes: the Kingbuilder needed too much, the Kamikaze mode needed just
+            enough to keep the swarm alive long enough to do damage.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Outcome</h2>
+          <p>
+            A competition entry with two distinct strategic modes — one that worked and
+            one that taught us why it didn't. The project built real fluency in game
+            AI, resource constraint reasoning, and iterative tuning. It also confirmed
+            that the most interesting engineering problems are the ones where your
+            intuition is wrong and the math tells you why.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Source &amp; Documentation</h2>
+          <p>Code and match replays available upon request.</p>
+          <div class="resume-actions">
+            <a href="contact.html" class="button button-primary">Request Code Access</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© 2026 Douglass A. Brown</p>
+    <p>Film · Photography · Sound · Systems</p>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>

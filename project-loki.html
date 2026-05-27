@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests;">
+
+  <title>Loki — Narrative Analysis System | Douglass A. Brown</title>
+  <meta name="description" content="A multimedia leadership analysis combining essay writing, presentation design, and long-form video storytelling." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="dougbrown.html" class="brand">Douglass A. Brown</a>
+
+    <nav class="nav-links" aria-label="Primary Navigation">
+      <a href="selected-work.html">Selected Work</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main">
+  <section class="page-hero project-loki-hero">
+    <div class="page-hero-overlay">
+      <div class="container page-hero-content">
+        <p class="eyebrow">Narrative Analysis / Video Essay</p>
+        <h1>Loki — Narrative Analysis System</h1>
+        <p class="hero-text">A multimedia leadership analysis combining essay writing, presentation design, and long-form video storytelling.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section">
+    <div class="container project-detail-grid">
+      <aside class="project-sidebar detail-block" aria-label="Project details">
+        <h2>Project Details</h2>
+        <ul class="meta-list">
+          <li><strong>Materials:</strong> Paper, video, slide deck</li>
+          <li><strong>Role:</strong> Writer, editor, presenter, producer</li>
+          <li><strong>Tools:</strong> Research, video editing, slide design, voiceover</li>
+          <li><strong>Focus:</strong> Identity, transformation, leadership</li>
+        </ul>
+      </aside>
+
+      <div class="project-body">
+        <div class="media-frame">
+          <img src="images/loki-title.png" alt="Loki — Narrative Analysis System project preview">
+        </div>
+
+        <article class="detail-block">
+          <h2>Overview</h2>
+          <p>
+            This project explores the concept of Self-Actualization through the story of the Marvel Cinematic Universe's Loki character. My paper aims to explore
+the evolution of Loki's character, not merely as a transition from villainy to anti-heroism but as a metaphorical and visual representation of the modern leader's journey towards self-awareness, adaptability, and the integration of emotional intelligence into their leadership style. The Slide allows me to walk through my presentation with a few examples. The video component allows the view to see the outcomes of choices made that lead the character through his growth.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Process</h2>
+          <p>
+            This project was developed during my “Leading Others” course at Evergreen State College. At the time, the second season of Marvel Studios’ 'Loki' was airing, and I became interested in how the series explored leadership, emotional intelligence, identity, and personal transformation through the character’s evolution.
+
+Drawing from Daniel Goleman’s Emotional Intelligence framework and William L. Sparks’ concepts of Actualized Leadership, I analyzed Loki’s progression across the Marvel Cinematic Universe and focused on how the final season emphasized empathy, self-awareness, accountability, and intentional decision-making under pressure.
+
+The project combined academic research, visual presentation design, and long-form video essay production. I chose to include it in my portfolio because it represents the intersection of narrative analysis, multimedia storytelling, leadership theory, and technical execution that defines much of my work.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Outcome</h2>
+          <p>
+            The project received an overwhelmingly positive response from both my instructor and classmates during presentation and critique. My professor described it as some of the strongest work he had received, and the project sparked extensive discussion during our live Zoom session. Beyond the academic response, the process became a major point of personal reflection for me. Analyzing Loki’s transformation from villain to anti-hero challenged me to think deeply about empathy, emotional intelligence, accountability, and the kind of leader I want to become. The experience reinforced my desire to contribute to organizations navigating growth and uncertainty by combining storytelling, analytical thinking, and human-centered leadership.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Project Materials</h2>
+          <p>
+            Click below to view the Essay, Slide Deck or Video Essay.
+          </p>
+          <div class="resume-actions">
+            <button id="openVideoBtn" class="button button-primary" type="button">View Main Piece</button>
+            <a href="downloads/loki-essay.pdf" class="button button-secondary" target="blank" rel="noopener noreferrer">Read Paper</a>
+  			<a href="downloads/loki-deck.pdf" class="button button-secondary" target="blank" rel="noopener noreferrer">View Slide Deck</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© 2026 Douglass A. Brown</p>
+    <p>Film • Photography • Sound • Systems</p>
+  </div>
+</footer>
+
+    <div id="videoModal" class="video-modal" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle">
+      <div class="video-modal-content">
+        <h2 id="videoModalTitle" class="sr-only">Loki Project Video</h2>
+        <button id="closeVideoBtn" class="close-modal" type="button" aria-label="Close video">&times;</button>
+        <iframe
+          id="lokiVideoFrame"
+          src=""
+          title="Loki Project Video"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          sandbox="allow-scripts allow-same-origin allow-presentation allow-popups">
+        </iframe>
+      </div>
+    </div>
+
+<script src="site.js"></script>
+
+</body>
+</html>

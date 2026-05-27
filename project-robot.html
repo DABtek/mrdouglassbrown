@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests;">
+  <title>Lego Robot — Physical Computing Build | Douglass A. Brown</title>
+  <meta name="description" content="A documented robotics build exploring behavior, sensors, logic, and interaction through LEGO Mindstorms and physical computing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="dougbrown.html" class="brand">Douglass A. Brown</a>
+    <nav class="nav-links" aria-label="Primary Navigation">
+      <a href="selected-work.html">Selected Work</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero work-hero">
+    <div class="page-hero-overlay">
+      <div class="container page-hero-content">
+        <p class="eyebrow">Systems · Physical Computing · 2024</p>
+        <h1>Lego Robot</h1>
+        <p class="hero-text">A documented build exploring the gap between what a machine does and what you intended — behavior, sensors, and logic through physical computing.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section">
+    <div class="container project-detail-grid">
+      <aside class="project-sidebar detail-block" aria-label="Project details">
+        <h2>Project Details</h2>
+        <ul class="meta-list">
+          <li><strong>Platform:</strong> LEGO Boost + Circuit Cubes + Adafruit</li>
+          <li><strong>Role:</strong> Designer · Builder · Programmer · Documenter</li>
+          <li><strong>Tools:</strong> Circuit Cubes, custom wiring, Adafruit kit</li>
+          <li><strong>Focus:</strong> Physical computing, custom hardware integration</li>
+          <li><strong>Status:</strong> Completed — full documentation</li>
+        </ul>
+      </aside>
+
+      <div class="project-body">
+        <div class="media-frame">
+          <img src="images/Legobot.jpg" alt="Lego Robot build">
+        </div>
+
+        <article class="detail-block">
+          <h2>Overview</h2>
+          <p>
+            This robot wasn't built from a kit designed for the task. It was built from
+            what was available: LEGO pieces from a LEGO Boost set, motors and lighting
+            components from Circuit Cubes kits — gear originally picked up at a LEGO expo
+            for my kids — and an Adafruit microcontroller kit from class. Nothing was
+            purpose-matched. Everything had to be made to work together.
+          </p>
+          <p class="mt-md">
+            The central challenge was electrical: Circuit Cube cables and Adafruit cables
+            aren't designed to connect to each other. I had to cross-wire them myself,
+            figuring out what was compatible and what wasn't by testing, not by reading a
+            guide that existed. That forced a different kind of thinking than following
+            a tutorial — you have to understand what you're working with before you can
+            make it do anything.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Process</h2>
+          <p>
+            The build started with physical assembly — chassis structure, motor placement,
+            and stability — before any logic was written. Once the hardware held together,
+            I worked through the wiring: identifying which Circuit Cube leads could interface
+            with the Adafruit connections, making my own cable crossovers, and testing each
+            connection before trusting it in the system.
+          </p>
+          <p class="mt-md">
+            From there, programming the behavior: how the robot reads its environment,
+            makes decisions, and carries out sequences of movement. The iteration cycle
+            was entirely physical — run it, watch what breaks, figure out whether the
+            failure is in the wiring, the logic, or the mechanical build, and adjust.
+            There's no shortcut for that loop.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Outcome</h2>
+          <p>
+            A working robot built from hardware that wasn't designed to work together,
+            with documented wiring decisions and programming logic. The project demonstrated
+            that physical computing is as much about problem-solving under constraint as it
+            is about code — when the components don't match, you have to figure out why
+            before you can figure out how.
+          </p>
+          <p class="mt-md">
+            It's also the most hands-on build in this portfolio, and the one that made
+            the most visible the gap between "I understand this in theory" and
+            "I understand this in my hands."
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Project Materials</h2>
+          <p>Documentation and demonstration video available upon request.</p>
+          <div class="resume-actions">
+            <a href="contact.html" class="button button-primary">Request Demo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© 2026 Douglass A. Brown</p>
+    <p>Film · Photography · Sound · Systems</p>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>

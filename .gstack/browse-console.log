@@ -1,0 +1,2 @@
+[2026-05-22T00:43:41.772Z] [warning] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+[2026-05-22T00:44:02.147Z] [warning] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
