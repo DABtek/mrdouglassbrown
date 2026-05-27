@@ -127,18 +127,24 @@ Parent containers get `position: relative`.
 
 ## Upload Checklist
 
-When updating the live site via Cyberduck FTP to `douglass.webwork.space/FINAL/`:
+When updating the live site via Cyberduck SFTP to `douglass.webwork.space/FINAL/`,
+drag these into the `/FINAL/` folder (overwrite).
 
-- [ ] `styles.css` — design token changes
-- [ ] `dougbrown.html` — updated font link + 5 project cards (added Inheritance + Battlecode)
-- [ ] `project-sapt.html` — real copy
-- [ ] `project-robot.html` — real copy
-- [ ] `project-podcast.html` — real copy
-- [ ] `project-battlecode.html` — real copy
-- [ ] All other HTML pages — update Google Fonts `<link>` tag (same new URL)
+### 2026-05-27 — résumé + animation + nav round (12 files)
+- [ ] `resume.html` — **NEW** résumé page (dual BA/BS, certs, full work history)
+- [ ] `styles.css` — CSS animations (hero entrance, nav underline, card hover), résumé layout, bug fixes (stray brace, broken hover)
+- [ ] `dougbrown.html` — Résumé nav link
+- [ ] `selected-work.html` — Résumé nav link
+- [ ] `gallery.html` — Résumé nav link
+- [ ] `about.html` — Résumé nav link + "View Résumé" button
+- [ ] `contact.html` — Résumé nav link + "View Résumé" button
+- [ ] `project-loki.html` — Résumé nav link
+- [ ] `project-sapt.html` — Résumé nav link
+- [ ] `project-robot.html` — Résumé nav link
+- [ ] `project-podcast.html` — Résumé nav link
+- [ ] `project-battlecode.html` — Résumé nav link
 
-**Pages that still need font link updated:**
-`selected-work.html`, `gallery.html`, `about.html`, `contact.html`, `project-loki.html`
+(`DESIGN.md` itself is a dev doc — no need to upload it.)
 
 ---
 
