@@ -444,6 +444,90 @@ button.button {
   padding-left: 1.15rem;
 }
 
+/* ---------- Across My Work (hub spokes) ---------- */
+
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.network-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1.5rem 1.5rem 1.35rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.network-card:hover,
+.network-card:focus-within {
+  transform: translateY(-4px);
+  border-color: rgba(201, 168, 67, 0.45);
+}
+
+.network-card h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.network-card > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.network-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin: 0 0 0.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.network-cta {
+  margin-top: auto;
+  padding-top: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--accent-gold-soft);
+}
+
+.network-card-soon {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.network-card-soon:hover {
+  transform: none;
+  border-color: var(--line);
+}
+
+.soon-badge {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(201, 168, 67, 0.15);
+  color: var(--accent-gold-soft);
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 168, 67, 0.3);
+}
+
 /* ---------- Visual Preview / Gallery ---------- */
 
 .visual-grid {
@@ -690,6 +774,34 @@ button.button {
   gap: 1rem;
 }
 
+.footer-network {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+}
+
+.footer-network a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-network a:hover,
+.footer-network a:focus-visible {
+  color: var(--accent-gold);
+}
+
+.footer-network-soon {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
 /* ---------- Utility ---------- */
 
 .placeholder {
@@ -872,7 +984,8 @@ button.button {
   .gallery-grid,
   .about-story-grid,
   .contact-grid,
-  .project-detail-grid {
+  .project-detail-grid,
+  .network-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -906,7 +1019,8 @@ button.button {
   .gallery-grid,
   .about-story-grid,
   .contact-grid,
-  .project-detail-grid {
+  .project-detail-grid,
+  .network-grid {
     grid-template-columns: 1fr;
   }
 
