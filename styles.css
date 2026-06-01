@@ -215,6 +215,26 @@ h3 {
   color: var(--text);
 }
 
+/* ---------- Header Clock (from Doug's Winter 2024 Web Design 1 final) ---------- */
+
+.header-clock {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.header-clock span {
+  display: inline-block;
+  min-width: 5.5em;
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .header-clock { display: none; }
+}
+
 /* ---------- Buttons ---------- */
 
 .button {
