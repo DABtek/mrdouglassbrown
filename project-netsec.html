@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests;">
+  <title>Lab-to-SOC — SIEM Detection Build | Douglass A. Brown</title>
+  <meta name="description" content="A from-scratch intrusion-detection pipeline — Suricata, the ELK stack, and Filebeat — with custom detection rules validated against live attack simulation." />
+  <link rel="canonical" href="https://mrdouglassbrown.com/project-netsec.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mrdouglassbrown.com/project-netsec.html" />
+  <meta property="og:title" content="Lab-to-SOC — SIEM Detection Build | Douglass A. Brown" />
+  <meta property="og:description" content="A from-scratch intrusion-detection pipeline — Suricata, the ELK stack, and Filebeat — with custom detection rules validated against live attack simulation." />
+  <meta property="og:image" content="https://mrdouglassbrown.com/images/hero-bg.jpg" />
+  <meta property="og:site_name" content="Douglass A. Brown" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://mrdouglassbrown.com/project-netsec.html" />
+  <meta name="twitter:title" content="Lab-to-SOC — SIEM Detection Build | Douglass A. Brown" />
+  <meta name="twitter:description" content="A from-scratch intrusion-detection pipeline — Suricata, the ELK stack, and Filebeat — with custom detection rules validated against live attack simulation." />
+  <meta name="twitter:image" content="https://mrdouglassbrown.com/images/hero-bg.jpg" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Douglass Anthony Brown",
+  "alternateName": "Douglass A. Brown",
+  "url": "https://mrdouglassbrown.com",
+  "image": "https://mrdouglassbrown.com/images/hero-bg.jpg",
+  "jobTitle": "Filmmaker · Computer Scientist · Multidisciplinary Creative",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "The Evergreen State College"
+  },
+  "knowsAbout": [
+    "Filmmaking",
+    "Photography",
+    "Computer Science",
+    "Cybersecurity",
+    "Audio Engineering",
+    "Web Design",
+    "Multimedia Production",
+    "Creative Technology"
+  ],
+  "sameAs": [
+    "https://instagram.com/mrdouglassbrown",
+    "https://www.youtube.com/@MrDouglassBrown",
+    "https://www.linkedin.com/in/douglassbrown",
+    "https://www.imdb.com/name/nm2482625",
+    "https://www.facebook.com/mrdouglassbrown",
+    "https://www.imagetalepro.com",
+    "https://dougbrown.myportfolio.com"
+  ]
+}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">Douglass A. Brown</a>
+    <nav class="nav-links" aria-label="Primary Navigation">
+      <a href="consulting.html">Consulting</a>
+      <a href="selected-work.html">Selected Work</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Résumé</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+      <div class="header-clock" aria-hidden="true">
+        <span id="time"></span>
+      </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero project-hero">
+    <div class="page-hero-overlay">
+      <div class="container page-hero-content">
+        <p class="eyebrow">Cybersecurity · Network Security Capstone · 2026</p>
+        <h1>Lab-to-SOC — SIEM Detection Build</h1>
+        <p class="hero-text">A working intrusion-detection pipeline built from an empty lab: Suricata watching the wire, the ELK stack making the data legible, and custom detection rules proven against live attacks I ran myself.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section">
+    <div class="container project-detail-grid">
+      <aside class="project-sidebar detail-block" aria-label="Project details">
+        <h2>Project Details</h2>
+        <ul class="meta-list">
+          <li><strong>Format:</strong> Live detection lab + report + deck</li>
+          <li><strong>Context:</strong> Network Security capstone — two-person team</li>
+          <li><strong>Role:</strong> Detection engineering · ELK pipeline · attack simulation · documentation</li>
+          <li><strong>Stack:</strong> Suricata, Elasticsearch, Kibana, Filebeat, UFW, WireGuard, TLS</li>
+          <li><strong>Focus:</strong> Intrusion detection, SOC tooling, threat validation</li>
+        </ul>
+      </aside>
+
+      <div class="project-body">
+        <div class="media-frame">
+          <img src="images/netsec-dashboard.png" alt="Kibana dashboard — an alerts-over-time chart, a top-signatures breakdown, and a timestamped table showing detected SSH brute force, Nmap SYN scan, and suspicious DNS query events">
+        </div>
+
+        <article class="detail-block">
+          <h2>Overview</h2>
+          <p>
+            The assignment was deceptively simple: stand up a real intrusion-detection
+            system and prove it works. We started from bare Linux hosts and built the
+            whole chain — a hardened network with a UFW firewall and a WireGuard VPN,
+            <strong>Suricata</strong> inspecting traffic as an IDS, and the
+            <strong>ELK stack</strong> (Elasticsearch, Kibana) turning raw events into
+            something a human analyst can actually read. <strong>Filebeat</strong>, running
+            the Suricata module, carried the alerts from the sensor into the dashboard.
+          </p>
+          <p class="mt-md">
+            This was a two-person team project. My work centered on the detection layer —
+            writing and tuning the Suricata rules, wiring the Filebeat-to-Elasticsearch
+            pipeline, and running the attack simulation that proved the alerts fired the
+            way they were supposed to.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Detection Engineering</h2>
+          <p>
+            A SIEM is only as good as the rules feeding it. Rather than ship stock
+            signatures, we wrote custom Suricata rules tuned to specific attacker
+            behavior — and, importantly, tuned the <em>thresholds</em> so the alerts
+            mean something instead of drowning an analyst in noise:
+          </p>
+          <ul class="meta-list">
+            <li><strong>SSH brute force</strong> — fires on 5 failed attempts within 60 seconds</li>
+            <li><strong>Nmap SYN scan</strong> — fires on 10 SYN probes within 10 seconds</li>
+            <li><strong>Suspicious DNS queries</strong> — flags lookups associated with reconnaissance and exfiltration patterns</li>
+          </ul>
+          <p class="mt-md">
+            The thresholds are the point. Five SSH failures in a minute is an attack;
+            two is a tired user. Picking those numbers — and being able to defend why —
+            is the difference between writing a rule and understanding detection.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Troubleshooting (the real work)</h2>
+          <p>
+            The pipeline didn't work the first time — they never do. Two fixes mattered:
+            correcting the <code>eve.json</code> path so Filebeat's Suricata module could
+            actually find and ship the events, and tuning the loopback interface so
+            Suricata inspected the right traffic. Most of the learning lived in the gap
+            between "configured" and "actually flowing."
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Proving It — Red-Team Validation</h2>
+          <div class="media-frame mt-md">
+            <img src="images/netsec-redteam.png" alt="Red team playbook slide — Nmap port scan, SSH brute force, and DNS lookup, with the actual nmap -sS SYN scan and brute-force loop commands">
+          </div>
+          <p class="mt-md">
+            A detection system you haven't attacked is a guess. So we played the adversary:
+            ran <strong>nmap</strong> SYN scans and an SSH brute-force loop against the lab,
+            then watched the alerts land in Kibana in real time. Each rule was verified by
+            triggering exactly the behavior it was written to catch — closing the loop
+            from sensor to dashboard to confirmed detection.
+          </p>
+          <p class="mt-md">
+            We also mapped each rule to <strong>MITRE ATT&amp;CK</strong> tactics — recon,
+            credential access, command-and-control — and to the real-world tradecraft they
+            mirror (Conti ransomware, credential stuffing, Cobalt Strike beacons). Detection
+            isn't just "did an alert fire"; it's knowing what the alert <em>means</em>.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Outcome</h2>
+          <p>
+            A complete, working lab-to-SOC pipeline: traffic inspected, events centralized,
+            custom rules firing on demand, and dashboard evidence to back every claim. The
+            build earned full marks, and the accompanying presentation was cited by the
+            instructor as the strongest of the semester — credit I share with my project
+            partner.
+          </p>
+        </article>
+
+        <article class="detail-block">
+          <h2>Project Materials</h2>
+          <p>The full technical writeup, the presentation deck, and a screenshot-annotated walkthrough:</p>
+          <div class="resume-actions">
+            <a href="downloads/netsec-report.pdf" class="button button-primary">Technical Report (PDF)</a>
+            <a href="downloads/netsec-deck.pdf" class="button button-secondary">Presentation Deck (PDF)</a>
+            <a href="downloads/netsec-full.pdf" class="button button-secondary">Annotated Screenshots (PDF)</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p>© 2026 Douglass A. Brown</p>
+    <nav class="footer-social" aria-label="Social links">
+        <a href="https://instagram.com/mrdouglassbrown" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.youtube.com/@MrDouglassBrown" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.016 3.016 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.016 3.016 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.546 15.568V8.432L15.818 12l-6.272 3.568z"/></svg></a>
+        <a href="https://www.linkedin.com/in/douglassbrown" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.3c0-1.26-.02-2.9-1.77-2.9-1.77 0-2.04 1.38-2.04 2.8V21h-4z"/></svg></a>
+        <a href="https://www.imdb.com/name/nm2482625" rel="noopener noreferrer" aria-label="IMDb"><svg viewBox="0 0 32 22" width="32" height="22" aria-hidden="true"><rect x="1" y="1" width="30" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><text x="16" y="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="9" fill="currentColor">IMDb</text></svg></a>
+        <a href="https://www.facebook.com/mrdouglassbrown" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07c0 6.03 4.39 11.03 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07Z"/></svg></a>
+      </nav>
+  </div>
+  <div class="container footer-network" aria-label="Across the network">
+    <a href="https://www.imagetalepro.com" rel="noopener noreferrer">Image Tale Productions ↗</a>
+    <span class="footer-network-soon">ProSe · coming soon</span>
+    <a href="https://dougbrown.myportfolio.com" rel="noopener noreferrer">Adobe archive ↗</a>
+  </div>
+
+</footer>
+
+<script src="site.js"></script>
+<script src="digitalClock.js"></script>
+</body>
+</html>
