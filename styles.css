@@ -14,7 +14,7 @@
   --text: #f4f5f0;
   --muted: #c1c8bc;
   --line: rgba(244, 245, 240, 0.12);
-  --accent: #2f6f3e;
+  --accent: #2f6f3e; /* brand forest green (MrDouglassBrown · Dark Water). Not used for body text; if ever used as text, pair with --accent-soft for AA contrast. */
   --accent-soft: #8ecf9b;
   --accent-blue: #7DB9D8;
   --accent-gold: #C9A843;
@@ -780,6 +780,24 @@ button.button {
 .contact-form textarea {
   min-height: 150px;
   resize: vertical;
+}
+
+.form-hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.req-mark {
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+
+.contact-form input:user-invalid,
+.contact-form textarea:user-invalid {
+  border-color: var(--accent-gold);
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 1px;
 }
 
 /* ---------- Footer ---------- */

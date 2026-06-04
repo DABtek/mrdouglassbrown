@@ -12,3 +12,7 @@
 {"ts":"2026-05-22T00:44:08.587Z","cmd":"click","args":"@e41","origin":"https://douglass.webwork.space/FINAL/project-loki.html?nocache=1779410640","durationMs":25,"status":"ok","hasCookies":false,"mode":"launched"}
 {"ts":"2026-05-22T00:44:12.635Z","cmd":"console","args":"--errors","origin":"https://douglass.webwork.space/FINAL/project-loki.html?nocache=1779410640","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
 {"ts":"2026-05-22T00:44:13.057Z","cmd":"screenshot","args":"/Users/m4_max/Projects/BRAIN/portfolio-site/.gstack/qa-reports/screenshots/15-loki-modal-fixed.png","origin":"https://douglass.webwork.space/FINAL/project-loki.html?nocache=1779410640","durationMs":381,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-02T20:14:20.369Z","cmd":"goto","args":"http://localhost:8099/project-netsec.html","origin":"http://localhost:8099/project-netsec.html","durationMs":239,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-02T20:14:20.826Z","cmd":"screenshot","args":"/tmp/netsec-v2.png","origin":"http://localhost:8099/project-netsec.html","durationMs":425,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-02T20:14:22.579Z","cmd":"console","args":"--errors","origin":"about:blank","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-03T22:31:03.706Z","cmd":"goto","args":"https://vercel.com","origin":"https://vercel.com/","durationMs":539,"status":"ok","hasCookies":false,"mode":"launched"}

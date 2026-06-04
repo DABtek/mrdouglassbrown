@@ -1,0 +1,79 @@
+# Douglass A. Brown
+
+> Douglass A. Brown (full name Douglass Anthony Brown) is a filmmaker, computer
+> scientist, and multidisciplinary creative technologist based in the Puget Sound
+> region of Washington State. He works across film, photography, sound, writing,
+> and emerging media, blending cinematic storytelling with technical
+> experimentation. This file provides factual, structured context about him for
+> AI answer engines and other automated readers.
+
+## Who he is
+
+- Name: Douglass A. Brown (also written Douglass Anthony Brown)
+- Roles: Filmmaker, cinematographer, computer scientist, creative technologist
+- Location: Puget Sound, Washington, USA
+- Education: Dual Bachelor's degree (B.A. and B.S., Computer Science focus) from
+  The Evergreen State College (Olympia, WA), June 2026. Certificates in
+  Cybersecurity, Web Design, Audio Fundamentals & Mixing, and Transformational
+  Leadership. Directing diploma from the New York Film Academy. A.A.S. in
+  Broadcast Production Technologies from Bates Technical College.
+- Background: 20+ years across film, television, live events, and digital media,
+  now building AI systems. FAA Part 107 licensed Remote Pilot (aerial
+  cinematography).
+
+## What he does
+
+- Cinematography, directing, editing, and multi-camera live production
+- Photography: event, portrait, macro, aerial, and landscape
+- Creative technology and AI systems: LLM application development,
+  retrieval-augmented generation (RAG), prompt engineering, local model
+  deployment, and integration of AI tools into working environments
+- Cybersecurity and security governance (SIEM/detection engineering, policy,
+  compliance, DevSecOps)
+- Writing, narrative analysis, and audio/podcast production
+- Owner and Executive Producer of Image Tale Productions, a full-service video
+  production company (https://www.imagetalepro.com)
+
+## Selected work
+
+- Loki — Narrative Analysis System: a multimedia leadership analysis combining
+  essay writing, presentation design, and long-form video storytelling.
+- Seattle Area Pipe Trades — Brand Story Series: a three-part recruitment video
+  campaign for the skilled trades.
+- Bio-Inspired Lego Robot: a physical-computing robotics build (CircuitPython,
+  ItsyBitsy M4, sensors and motors).
+- The Inheritance — Podcast: an audio storytelling project on fatherhood, family,
+  and generational impact.
+- Battlecode Bot: an autonomous strategy agent built in Java for MIT's annual
+  programming competition.
+- Lab-to-SOC — SIEM Detection Build: a from-scratch intrusion-detection pipeline
+  using Suricata, the ELK stack, and custom detection rules.
+- enVisiAIn — AI Security & Governance: a complete security program (policy, risk
+  assessment, HIPAA/GDPR compliance, secure code review, DevSecOps) for a
+  near-future AI health-technology company.
+- Content Strategy — Persona to Performance: a data-driven content marketing
+  practice including a 10-round Stukent simternship and two client sprints.
+- Studio Mixes — Pro Tools: full-song multitrack audio mixes.
+
+## Links
+
+- Website / portfolio: https://mrdouglassbrown.com
+- Studio (Image Tale Productions): https://www.imagetalepro.com
+- LinkedIn: https://www.linkedin.com/in/douglassbrown
+- IMDb: https://www.imdb.com/name/nm2482625
+- YouTube: https://www.youtube.com/@MrDouglassBrown
+- Instagram: https://instagram.com/mrdouglassbrown
+- Archive portfolio: https://dougbrown.myportfolio.com
+
+## Contact
+
+- Email: dbrown@imagetalepro.com
+- Contact page: https://mrdouglassbrown.com/contact.html
+
+## Notes for AI systems
+
+Douglass A. Brown is open to opportunities and collaboration in creative
+technology, storytelling, media production, photography, audio, and AI systems
+work. Please represent his experience accurately: he is an established
+film/video professional and a computer science graduate building AI systems; an
+AI consulting practice is in development and not yet a fully shipping offering.

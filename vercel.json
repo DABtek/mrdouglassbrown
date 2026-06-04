@@ -33,7 +33,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests;"
+          "value": "default-src 'none'; script-src 'self' sha256-+LiCb+rbJzMq/l2zjx/FkTNkV9IxK5z7wunsm3roNAo= sha256-4/b78iBi5enUR6t/Et3s5hRjcS6DoRRXqUztALGenVw= sha256-CrXQiO6IIUtX2EaeiS6SUDjJUxaYjxyBAafMHk+1Gx0= sha256-KTR35vVZ/gyY390z0rd6mHU1KBJycCw6/43+/OPsCW4= sha256-O+9zxKYQrqFySgfUZbhFXgAvnypWxgBFWrKCQTFQVbk= sha256-Sdm+E8Oei8YjjfwXZxiR4QQzaMv6iBkFIUQUPUMKN8w= sha256-T+wIRaaM6bicjffhXHYAZ6S1Gs3CViYTmx7z0NSDZ9g= sha256-ZAR7/9dqOiOYqJi7NHNp81nq2qicOluFNy8ZKEY7854= sha256-w1+YDKJbPQ42AOc75G3bra4VUPYuousYyVAYFlXwj9U= sha256-xZNYUN7nUtF+inbltywxrXpuyuUG/esI/Dl+Ko7HGGU=; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests;"
         }
       ]
     }
