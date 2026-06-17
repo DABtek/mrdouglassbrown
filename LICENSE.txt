@@ -1,0 +1,9 @@
+© 2026 Douglass A. Brown (MrDouglassBrown — mrdouglassbrown.com).
+All rights reserved.
+
+This website's source code, design, and assets may not be copied, reproduced,
+scraped, redistributed, or used to train machine-learning / AI models without prior
+written permission.
+
+Provenance fingerprint: MDB-F31B84C3648E95AE
+Contact: doug.brown82@gmail.com
